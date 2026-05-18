@@ -65,8 +65,9 @@ app.use(cors({
     "http://localhost:5173",
     "http://localhost:5174",
     "https://first-web1-blue.vercel.app",
+    "https://first-web1-w3a4.vercel.app"
   ],
-  credentials: true,
+  credentials: true,    
   methods: ["GET", "POST", "PUT", "DELETE"],
 }));
 
