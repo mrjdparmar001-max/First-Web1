@@ -1,7 +1,8 @@
 import axios from "axios";
 import { getHeaders } from "../auth/authService";
 
-const BASE = "http://localhost:8000";
+// const BASE = "http://localhost:8000";
+const BASE = import.meta.env.VITE_API_URL
 
 // ── Auth ──────────────────────────────────────────────────────────────────────
 export const signup = (d) => axios.post(`${BASE}/signup`, d);
